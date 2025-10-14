@@ -46,6 +46,7 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(358, 28);
             this.dataGridView1.Name = "dataGridView1";
@@ -63,6 +64,7 @@
             this.btn_IdGetir.TabIndex = 22;
             this.btn_IdGetir.Text = "Id\'ye göre getir";
             this.btn_IdGetir.UseVisualStyleBackColor = false;
+            this.btn_IdGetir.Click += new System.EventHandler(this.btn_IdGetir_Click);
             // 
             // btn_Güncelle
             // 
@@ -75,6 +77,7 @@
             this.btn_Güncelle.TabIndex = 21;
             this.btn_Güncelle.Text = "Güncelle";
             this.btn_Güncelle.UseVisualStyleBackColor = false;
+            this.btn_Güncelle.Click += new System.EventHandler(this.btn_Güncelle_Click);
             // 
             // btn_Sil
             // 
@@ -87,6 +90,7 @@
             this.btn_Sil.TabIndex = 20;
             this.btn_Sil.Text = "Sil";
             this.btn_Sil.UseVisualStyleBackColor = false;
+            this.btn_Sil.Click += new System.EventHandler(this.btn_Sil_Click);
             // 
             // btn_Ekle
             // 
@@ -99,6 +103,7 @@
             this.btn_Ekle.TabIndex = 19;
             this.btn_Ekle.Text = "Ekle";
             this.btn_Ekle.UseVisualStyleBackColor = false;
+            this.btn_Ekle.Click += new System.EventHandler(this.btn_Ekle_Click);
             // 
             // btn_Listele
             // 
@@ -111,6 +116,7 @@
             this.btn_Listele.TabIndex = 18;
             this.btn_Listele.Text = "Listele";
             this.btn_Listele.UseVisualStyleBackColor = false;
+            this.btn_Listele.Click += new System.EventHandler(this.btn_Listele_Click);
             // 
             // label3
             // 
@@ -160,7 +166,7 @@
             // 
             this.radioButton1.AutoSize = true;
             this.radioButton1.Font = new System.Drawing.Font("Segoe UI Variable Small Semibol", 12F, System.Drawing.FontStyle.Bold);
-            this.radioButton1.Location = new System.Drawing.Point(158, 82);
+            this.radioButton1.Location = new System.Drawing.Point(149, 78);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(64, 25);
             this.radioButton1.TabIndex = 24;
@@ -172,7 +178,7 @@
             // 
             this.radioButton2.AutoSize = true;
             this.radioButton2.Font = new System.Drawing.Font("Segoe UI Variable Small Semibol", 12F, System.Drawing.FontStyle.Bold);
-            this.radioButton2.Location = new System.Drawing.Point(240, 80);
+            this.radioButton2.Location = new System.Drawing.Point(231, 78);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(63, 25);
             this.radioButton2.TabIndex = 25;
