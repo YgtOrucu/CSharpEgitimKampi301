@@ -35,7 +35,7 @@
             <PropertyRef Name="LocationID" />
           </Key>
           <Property Name="LocationID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-          <Property Name="City" Type="nvarchar" MaxLength="30" />
+          <Property Name="City" Type="nvarchar" MaxLength="40" />
           <Property Name="Country" Type="nvarchar" MaxLength="30" />
           <Property Name="Capacity" Type="tinyint" />
           <Property Name="Price" Type="decimal" Precision="18" Scale="2" />
@@ -102,7 +102,7 @@
             <PropertyRef Name="LocationID" />
           </Key>
           <Property Name="LocationID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="City" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+          <Property Name="City" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
           <Property Name="Country" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
           <Property Name="Capacity" Type="Byte" />
           <Property Name="Price" Type="Decimal" Precision="18" Scale="2" />
